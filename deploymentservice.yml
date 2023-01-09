@@ -19,6 +19,7 @@ spec:
       containers:
       - name: nodeserver
         image: thetips4you/nodeapp:latest
+        restartPolicy: Never
         ports:
         - containerPort: 3000
         
